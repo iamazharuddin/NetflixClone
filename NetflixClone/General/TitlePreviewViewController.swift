@@ -57,9 +57,15 @@ class TitlePreviewViewController: UIViewController {
         view.addSubview(overviewLabel)
         view.addSubview(downloadButton)
         
+        
+        downloadButton.addTarget(self, action: #selector(downloadButtonClicked), for: .touchUpInside)
         configureConstraints()
     }
     
+    
+    @objc private func downloadButtonClicked(){
+         
+    }
 
     func configureConstraints() {
         let webViewConstraints = [
