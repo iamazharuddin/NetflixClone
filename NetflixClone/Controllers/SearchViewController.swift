@@ -6,15 +6,9 @@
 //
 
 import UIKit
-
-
 class SearchViewController: UIViewController {
     private var titles = [Title]()
-    
-    
     let searchController = UISearchController(searchResultsController: SearchResultsViewController())
-    
-    
     private let discoverTable: UITableView = {
         let table = UITableView()
         table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifire)
@@ -29,7 +23,6 @@ class SearchViewController: UIViewController {
         navigationController?.navigationBar.tintColor = .white
         navigationItem.searchController = searchController
         fetchMoviesData()
-        
         searchController.searchResultsUpdater = self
     }
     

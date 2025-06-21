@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 class UpcommingViewController: UIViewController {
 
     override func viewDidLoad() {
