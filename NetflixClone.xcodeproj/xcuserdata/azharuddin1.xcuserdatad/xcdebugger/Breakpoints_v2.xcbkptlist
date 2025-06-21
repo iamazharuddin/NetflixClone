@@ -18,38 +18,6 @@
             endingLineNumber = "64"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A2E6F5B7-2378-4F39-B011-E2C3C75BDDB0 - 87d47eda42200e6f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NetflixClone.DownloadsViewController.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
-                  moduleName = "NetflixClone"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/azharuddin1/Documents/MyIOSConcepts/Clone/NetflixClone/NetflixClone/Controllers/DownloadsViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "A2E6F5B7-2378-4F39-B011-E2C3C75BDDB0 - e936d9fa5a69d722"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NetflixClone.DownloadsViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
-                  moduleName = "NetflixClone"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/azharuddin1/Documents/MyIOSConcepts/Clone/NetflixClone/NetflixClone/Controllers/DownloadsViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

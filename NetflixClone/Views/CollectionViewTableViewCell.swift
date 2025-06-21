@@ -7,8 +7,8 @@
 
 import UIKit
 
-protocol CollectionViewTableViewCellDelegate: AnyObject {
-    func collectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: TitlePreviewViewModel)
+protocol CollectionViewTableViewCellDelegate : AnyObject {
+        func collectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: TitlePreviewViewModel)
 }
 
 
@@ -55,8 +55,6 @@ class CollectionViewTableViewCell: UITableViewCell {
     }
     
     private func downloadTitleAt(indexPath: IndexPath) {
-        
-    
         DataPersistenceManager.shared.downloadTitleWith(model: titles[indexPath.row]) { result in
             switch result {
             case .success():
@@ -65,8 +63,6 @@ class CollectionViewTableViewCell: UITableViewCell {
                 print(error.localizedDescription)
             }
         }
-        
-
     }
     
 }

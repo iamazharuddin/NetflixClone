@@ -77,9 +77,6 @@ class HomeViewController: UIViewController {
                 print(erorr.localizedDescription)
             }
         }
-        
-
-
     }
 }
 
